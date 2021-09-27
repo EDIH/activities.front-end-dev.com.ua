@@ -1,0 +1,17 @@
+/server.php
+/package-lock.json
+/mix-manifest.json
+/index.html
+/.env
+/vendor/
+/tests/
+/storage/
+/routes/
+/node_modules/
+/img/
+/dist/
+/database/
+/config/
+/bootstrap/
+/app/
+/.idea/

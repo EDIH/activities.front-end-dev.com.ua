@@ -1,0 +1,34 @@
+#blockList {
+  overflow: hidden;
+}
+
+#templateList {
+  height: 100%;
+  overflow-y: scroll;
+  width: calc(100% - 20px);
+  max-width: calc(25% - 20px);
+  margin-right: 20px;
+  padding-right: 10px;
+  max-height: 90vh;
+  position: sticky;
+  top: 5vh;
+}
+
+#templateList::-webkit-scrollbar {
+  width: 4px;
+}
+
+#templateList::-webkit-scrollbar-track {
+  background: #D6D6D6;
+  width: 4px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  background-clip: content-box;
+}
+
+#templateList::-webkit-scrollbar-thumb {
+  background: #1D8FBD;
+  width: 4px;
+}
+
+
