@@ -31219,3 +31219,10 @@ a.text-muted:hover {
   color: #ffffff;
 }
 /*# sourceMappingURL=adminlte.css.map */
+
+.sidebar-dark-primary{
+  background-color: #132238 !important;
+}
+.brand-link .brand-image{
+  margin-top: 0;
+}
