@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
  */
 mix
     .js('resources/js/app.js', 'public/js')
+    .js('resources/js/scripts.js', 'public/js/common.js')
     .js('resources/js/blocks/form.js', 'public/js')
     .js('resources/js/blocks/list.js', 'public/js')
     .js('resources/js/block_templates/load.js', 'public/js')
@@ -22,5 +23,10 @@ mix
 
 mix.sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/admin.scss', 'public/css/')
+    .sass('resources/sass/main.scss', 'public/css/style.css')
 ;
 
+// mix.combine([
+//     'resources/*.css',
+//     'path/to/second/dir/*.css'
+// ], 'all-files.css');

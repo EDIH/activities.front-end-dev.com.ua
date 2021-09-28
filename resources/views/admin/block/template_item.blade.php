@@ -14,6 +14,6 @@ margin-bottom: 1rem;" data-template_id="{{ $template->id }}">
     <img
         src="{{ '/uploads/block_templates/thumbs/' . $template->image_path }}"
         alt=""
-        style="max-width: 100%;"
+        style="max-width: 100%; width: 100%;"
     >
 </div>

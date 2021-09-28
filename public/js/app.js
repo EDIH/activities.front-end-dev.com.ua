@@ -39,6 +39,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9hZG1pbi5zY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9zYXNzL2FkbWluLnNjc3M/NDIzNCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/sass/admin.scss\n");
 
+/***/ }),
+
+/***/ "./resources/sass/main.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/main.scss ***!
+  \**********************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9tYWluLnNjc3MuanMiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL3Nhc3MvbWFpbi5zY3NzP2M4YmMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/sass/main.scss\n");
+
 /***/ })
 
 /******/ 	});
@@ -131,6 +142,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		var installedChunks = {
 /******/ 			"/public/js/app": 0,
 /******/ 			"public/css/app": 0,
+/******/ 			"public/css/style": 0,
 /******/ 			"public/css/admin": 0
 /******/ 		};
 /******/ 		
@@ -183,9 +195,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["public/css/app","public/css/admin"], function() { return __webpack_require__("./resources/js/app.js"); })
-/******/ 	__webpack_require__.O(undefined, ["public/css/app","public/css/admin"], function() { return __webpack_require__("./resources/sass/app.scss"); })
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["public/css/app","public/css/admin"], function() { return __webpack_require__("./resources/sass/admin.scss"); })
+/******/ 	__webpack_require__.O(undefined, ["public/css/app","public/css/style","public/css/admin"], function() { return __webpack_require__("./resources/js/app.js"); })
+/******/ 	__webpack_require__.O(undefined, ["public/css/app","public/css/style","public/css/admin"], function() { return __webpack_require__("./resources/sass/app.scss"); })
+/******/ 	__webpack_require__.O(undefined, ["public/css/app","public/css/style","public/css/admin"], function() { return __webpack_require__("./resources/sass/admin.scss"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["public/css/app","public/css/style","public/css/admin"], function() { return __webpack_require__("./resources/sass/main.scss"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
