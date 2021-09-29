@@ -1,4 +1,9 @@
 <div class="info-block-img">
+    <div class="info-block-img__design">
+        <img class="worm" src="img/templates/info-block-img/worm-left.svg" alt="">
+        <img class="perf" src="img/templates/info-block-img/perf.svg" alt="">
+        <img class="circle" src="img/templates/info-block-img/circle.svg" alt="">
+    </div>
     <div class="info-block-img__container main-container">
         <div class="info-block-img__text">
             <h2 class="info-block-img__title section-title">
@@ -10,7 +15,12 @@
             </div>
         </div>
         <div class="info-block-img__img">
-            <img src="" alt="">
+            <img src="img/templates/info-block-img/img.jpg" alt="">
+        </div>
+    </div>
+    <div class="info-block-img__button main-container">
+        <div class="main-button js-button-send-form button">
+            Записаться на пробное занятие
         </div>
     </div>
 </div>
