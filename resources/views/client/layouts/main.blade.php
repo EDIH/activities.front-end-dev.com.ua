@@ -103,7 +103,7 @@
             <li class="header__nav-item"><a href="<?php echo url('/');?>/types" class="header__nav-lnk">Виды посещений</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/timetable" class="header__nav-lnk">Расписание</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/price" class="header__nav-lnk">Цены</a></li>
-            <li class="header__nav-item"><a href="<?php echo url('/');?>/trainer" class="header__nav-lnk">Тренеры</a></li>
+            <li class="header__nav-item"><a href="<?php echo url('/');?>/trainers" class="header__nav-lnk">Тренеры</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/galery" class="header__nav-lnk">Галлерея</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/contacts" class="header__nav-lnk">Контакты</a></li>
         </ul>

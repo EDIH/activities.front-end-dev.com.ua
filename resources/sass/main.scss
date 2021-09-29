@@ -42,6 +42,7 @@ body{
   line-height: 101.4%;
   text-transform: uppercase;
   color: #FFFFFF;
+  text-decoration: none;
 }
 .main-container{
   max-width: 1500px;
@@ -476,7 +477,7 @@ body{
     }
     &:before{
       content: '';
-      background-image: url("../../img/templates/process/star.svg");
+      background-image: url("../img/templates/process/star.svg");
       min-width: 37px;
       min-height: 37px;
       background-position: center;
@@ -975,7 +976,7 @@ body{
     }
   }
 }
-.programs{
+.programs, .programs-transparent{
   position: relative;
   background-color: $main-bg;
   padding-top: 7.3rem;
@@ -1017,6 +1018,11 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  &__button{
+    margin-top: 43px;
+    text-align: center;
+    display: block;
+  }
   &__subtitle{
     font-size: 1.8rem;
     line-height: 153.9%;
@@ -1057,7 +1063,8 @@ body{
         left: 4px;
         z-index: 1;
         margin: -2px;
-        border-radius: inherit;
+        border-radius: 10px;
+        overflow: hidden;
         background-color: $main-bg;
         transition: .2s;
         width: calc(100% - 4px);
@@ -1071,7 +1078,7 @@ body{
       &:before{
         opacity: 1;
       }
-      .programs__item-subtitle{
+      .programs__item-subtitle, .programs-transparent__item-subtitle{
         max-height: none;
         transition-delay: 0.2s;
       }
@@ -1127,6 +1134,10 @@ body{
       height: 100%;
     }
   }
+}
+.programs-transparent{
+  background-color: transparent;
+  padding-bottom: 1rem;
 }
 .price{
   padding-top: 8rem;
@@ -1338,7 +1349,7 @@ body{
     }
   }
 }
-.trainer{
+.trainer, .trainers-all{
   position: relative;
   padding-top: 8rem;
   padding-bottom: 6.8rem;
@@ -1480,6 +1491,25 @@ body{
         opacity: 1;
       }
     }
+  }
+}
+.trainers-all{
+  padding-bottom: 1rem;
+  &__swiper{
+    display: flex;
+    margin-right: -20px;
+    width: calc(100% + 20px);
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+  &__slide{
+    width: calc(33.3333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 39px -10px rgba(190, 203, 223, 0.5);
+    border-radius: 15px;
   }
 }
 .galery{

@@ -56,7 +56,7 @@ height: auto;
 	l15.8-15.7V55.4z M54.8,15.1l-6-5.9l4-4c1,1,1.9,1.9,2.9,2.9c1,1,2,2,3,3.1L54.8,15.1z" fill="white"/>
 </svg>
     </button>
-    <img src="{{ '/uploads/block_templates/' . $block->template->image_path }}" alt="" style="max-width: 100%;">
+    <img src="{{ '/uploads/block_templates/' . $block->template->image_path }}" alt="" style="max-width: 100%; width: 100%;">
 {{--    @dd($block->template)--}}
 {{--    <div class="card @empty($show) collapsed-card @endempty @if($block->enabled) card-primary shadow @else card-gray @endif">--}}
 {{--        <div class="card-header">--}}

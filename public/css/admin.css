@@ -31,11 +31,8 @@
   width: 4px;
 }
 
-.sidebar-dark-primary, [class*=sidebar-dark-] {
+.sidebar-dark-primar {
   background-color: #132238 !important;
-}
-.brand-link .brand-image{
-  margin-top: 0;
 }
 
 
