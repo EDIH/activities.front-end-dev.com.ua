@@ -100,7 +100,7 @@
         <ul class="header__nav-list main-container">
             <li class="header__nav-item"><a href="<?php echo url('/');?>/about" class="header__nav-lnk">О нас</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/programs" class="header__nav-lnk">Наши программы</a></li>
-            <li class="header__nav-item"><a href="<?php echo url('/');?>/types" class="header__nav-lnk">Виды посещений</a></li>
+            <li class="header__nav-item"><a href="<?php echo url('/');?>/publications" class="header__nav-lnk">Публикации</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/timetable" class="header__nav-lnk">Расписание</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/price" class="header__nav-lnk">Цены</a></li>
             <li class="header__nav-item"><a href="<?php echo url('/');?>/trainers" class="header__nav-lnk">Тренеры</a></li>

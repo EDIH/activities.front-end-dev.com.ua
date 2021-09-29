@@ -19,4 +19,8 @@
 .brand-link .brand-image{
     margin-top: 0;
 }
+.badge-success {
+    background-color: white;
+    color: #132238;
+}
 /*# sourceMappingURL=adminlte.min.css.map */

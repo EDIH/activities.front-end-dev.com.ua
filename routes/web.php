@@ -115,3 +115,4 @@ Route::get('/{alias?}', [\App\Http\Controllers\PagesController::class, 'show'])-
 //], function () {
 //    Route::get
 //});
+
